@@ -19,7 +19,7 @@ def generate_launch_description():
   robot_name_in_model = 'ranger_mini_v2'
   rviz_config_file_path = 'rviz/urdf.rviz'
   urdf_file_path = 'urdf/ranger_mini_gazebo.xacro'
-  world_file_path = 'worlds/fish.world'
+  world_file_path = 'world/fish.world'
   urdf_file_name = 'ranger_mini_gazebo.xacro'
 
   # Pose where we want to spawn the robot
