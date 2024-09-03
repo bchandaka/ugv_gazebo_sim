@@ -468,7 +468,7 @@
 
     <gazebo>
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-            <parameters>/home/agilex/ugv_sim/src/ranger_mini/config/ranger_mini_joint.yaml</parameters>
+            <parameters>$(find ranger_mini)/config/ranger_mini_joint.yaml</parameters>
         </plugin>
     </gazebo>
 
